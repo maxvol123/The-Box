@@ -8,15 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="bg">
+        <div class="bg__elements">
+            <div class="elements__element">Home</div>
+            <div class="elements__element">About Us</div>
+            <div class="elements__element">Projects</div>
+            <div class="elements__element">Services</div>
+            <div class="elements__element">Contact Us</div>
+        </div>
+    </div>
     <header>
         <nav class="header__nav">
             <img src="img/Logo.svg" alt="" class="nav__logo">
-            <div class="nav__elements">
+            <div class="nav__elements hide">
                 <div class="elements__element">Home</div>
                 <div class="elements__element">About Us</div>
                 <div class="elements__element">Projects</div>
                 <div class="elements__element">Services</div>
                 <div class="elements__element">Contact Us</div>
+            </div>
+            <div class="nav__burger" onclick="ShowBurger()">
+                <div class="burger__element"></div>
+                <div class="burger__element"></div>
+                <div class="burger__element"></div>
             </div>
         </nav>
     <main class="header__main">
