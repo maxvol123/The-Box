@@ -115,6 +115,37 @@ header{
     margin-top: 20px;
     font-size: 20px;
 }
+.main__main {
+    margin-top: 50px;
+}
+.main__items {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 0 15px;
+}
+.items__item {
+    padding: 50px 20px;
+    width: 500px;
+    border-radius: 10px;
+    border: #E0E3EB solid 1px;
+    margin-bottom: 10px;
+}
+.item__icon {
+    color: #F9995D;
+    font-size: 40px;
+}
+.item__title {
+    font-weight: 700;
+    color: #3D445C;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.item__subtitle {
+font-weight: 400;
+font-size: 16px;
+color: #858EAD;
+}
 @media only screen and (max-width: 1600px){
     .header__main {
         background-size: 1600px 100%;
@@ -124,6 +155,9 @@ header{
     }
 }
 @media only screen and (max-width: 800px){
+    header{
+        height: auto;
+    }
     .burger__element{
         display: block;
     }
