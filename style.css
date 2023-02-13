@@ -214,6 +214,40 @@ color: #858EAD;
     margin-left: 50px;
     margin-bottom: 30px;
 }
+.consultation {
+    height: 300px;
+    background-image: url(/img/kitchen.png);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.consultation__text {
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.text__cotitle {
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 30px;
+}
+.text__codescr {
+font-weight: 400;
+font-size: 24px;
+}
+.consultation__button {
+    margin-top: 124px;
+}
+.consultation__button>button {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: white solid 2px;
+    background:#292e3d00;
+    padding: 15px 10px;
+}
 @media only screen and (max-width: 1600px){
     .header__main {
         background-size: 1600px 100%;
@@ -237,6 +271,18 @@ color: #858EAD;
         position: absolute;
         margin-top: -500px;
         margin-left: 00px;
+    }
+    
+}
+@media only screen and (max-width: 964px){
+    .consultation__button {
+        margin-top: 30px;
+    }
+    .consultation__text {
+        margin-top: 30px;
+    }
+    .consultation {
+        height: 350px;
     }
 }
 @media only screen and (max-width: 800px){
