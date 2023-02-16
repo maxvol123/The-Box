@@ -248,6 +248,94 @@ font-size: 24px;
     background:#292e3d00;
     padding: 15px 10px;
 }
+.projects {
+    min-height: 100vh;
+    padding-left: 125px;
+}
+.projects__title {
+    font-weight: 700;
+    font-size: 36px;
+}
+.projects__block {
+    display: flex;
+}
+.block__nav {
+    margin-top: 50px;
+    width: 30%;
+    font-weight: 500;
+    font-size: 24px;
+}
+.nav__element {
+    display: flex;
+    flex-direction: row;
+}
+.block__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.content__element {
+margin-right: 40px;
+margin-top: 40px;
+}
+.element__photo {
+    margin: 0;
+}
+.element__textblock {
+    color: white;
+    margin-top: -5px;
+    background-color: #2947A9;
+    padding: 5px;
+}
+.textblock__title {
+    font-weight: 700;
+    font-size: 20px;
+}
+.textblock__subtitle {
+}
+.content__arrowr {
+    background-color: #292E3D;
+    padding: 10px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.content__arrowl{
+    margin-top: 20px;
+    background-color: #292E3D;
+    padding: 10px 30px;
+    margin-right: 80px;
+    cursor: pointer;
+
+}
+.arr{
+    width: 100%;
+    max-width: 900px;
+    display: flex;  
+    justify-content: space-around;
+    color: white;
+}
+.fa-solid {
+}
+.fa-arrow-left {
+}
+.content__nav {
+    display: flex;
+    justify-content: space-around;
+}
+.nav__circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #858EAD;
+    margin-right: 10px;
+    margin-top: 40%;
+}
+.content__arrowl {
+}
+.fa-arrow-right {
+}
 @media only screen and (max-width: 1600px){
     .header__main {
         background-size: 1600px 100%;
@@ -322,5 +410,18 @@ font-size: 24px;
     }
     .services__block {
         justify-content: center;
+    }
+    .projects__block{
+        flex-direction: column;
+    }
+    .block__content{
+        margin: 0;
+        justify-content: center;
+    }
+    .projects{
+        padding-left: 5px;
+    }
+    .content__arrowl{
+        margin-right: 10px;
     }
 }
