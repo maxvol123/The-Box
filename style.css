@@ -342,13 +342,13 @@ input :active, :hover, :focus {
 }
 .contact {
     background-color: #F6F8F7;
-    min-height: 100vh;
     text-align: center;
+    padding: 50px;
 }
 .contact__title {
     font-weight: 700;
     font-size: 36px;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 .contact__subtitle {
     font-size: 20px;
@@ -382,6 +382,69 @@ button{
     margin: 0;
     border: 0;
     padding: 0;
+}
+.footer {
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer__inf {
+}
+.inf__el {
+    display: flex;
+}
+.el__title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2947A9;
+}
+.el__subtitle {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.inf__img {
+    margin-top: 20px;
+}
+.inf__info {
+}
+.info__newseller {
+}
+.newseller__input {
+}
+.newseller__button {
+    height: 43px;
+    background: #F9995D;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 136px;
+}
+.newseller__title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2947A9;
+}
+.social__title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2947A9;
+}
+.social__icons {
+    font-size: 40px;
+    cursor: pointer;
+}
+.footer__footer {
+    height: 70px;
+    background-color: #2947A9;
+    color: white;
+    text-align: center;
+}
+.footer__text {
+    padding-top: 26px;
+
 }
 @media only screen and (max-width: 1600px){
     .header__main {
@@ -418,6 +481,12 @@ button{
     }
     .consultation {
         height: 350px;
+    }
+    .footer {
+        justify-content: start;
+    }
+    .inf__info{
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 800px){
