@@ -5,8 +5,42 @@ function ShowBurger() {
     document.querySelector(".bg").classList.add("bg__active")
 }
 }
-function Scroll() {
-    console.log(123);
-const el = document.getElementById('main__services');
-el.topOfPageRef.current.scrollIntoView(alignToTop);
+function ScrollServices() {
+    let element = document.querySelector(".main__services")
+window.scroll({
+    left:0,
+    top: element.offsetTop,
+    behavior: "smooth"
+})
+}
+function ScrollHome() {
+window.scroll({
+    left:0,
+    top: 0,
+    behavior: "smooth"
+})
+}
+function ScrollAbout() {
+    let element = document.querySelector(".main__about")
+window.scroll({
+    left:0,
+    top: element.offsetTop,
+    behavior: "smooth"
+})
+}
+function ScrollProject() {
+    let element = document.querySelector(".projects")
+window.scroll({
+    left:0,
+    top: element.offsetTop,
+    behavior: "smooth"
+})
+}
+function ScrollContact() {
+    let element = document.querySelector(".contact")
+window.scroll({
+    left:0,
+    top: element.offsetTop,
+    behavior: "smooth"
+})
 }
